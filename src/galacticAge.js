@@ -26,4 +26,7 @@ export class Age {
         const jupiterAge = this.age / 11.88;
         return jupiterAge.toFixed(2);
     };
+    lifeExpectancy(){
+
+    };
 };
