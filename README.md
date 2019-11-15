@@ -60,8 +60,8 @@ _"'start': 'npm run build; webpack-dev-server --open --mode development',"_
 |'apple'|return false|
 |25 years old|Mercurial Age: 104.17 years|
 |25 years old|Venetian Age: 40.32 years|
-|25 years old|Martian Age: 13.3 years|
-|25 years old|Jovian Age: 2.11 years|
+|25 years old|Martian Age: 13.30 years|
+|25 years old|Jovian Age: 2.10 years|
 
 |Life Expectancy Location|Life Expectancy|
 |---|---|
