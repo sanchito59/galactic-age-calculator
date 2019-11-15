@@ -32,6 +32,8 @@ export class Age {
         return lifeLeft;
     };
     mercuryLifeExpectancy() {
-
+        const averageLife = 79.6;
+        const lifeLeft = (averageLife - (this.age / 0.24));
+        return lifeLeft.toFixed(2);
     };
 };
