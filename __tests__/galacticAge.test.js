@@ -84,8 +84,12 @@ describe('venusLifeExpectancy', () => {
         let lifeLeft = new Age(50);
         expect(lifeLeft.venusLifeExpectancy()).toEqual("We've been mourning you for 1.05 years!");
     });
-    test('should tell the user how long they have left to live based on averageLife', () => {
+    // test('should tell the user how long they have left to live based on averageLife', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28")
+    // });
+    test('should tell the user how long they have left to live in a statement', () => {
         let lifeLeft = new Age(25);
-        expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28")
+        expect(lifeLeft.venusLifeExpectancy()).toEqual("You have 39.28 years left to live on Venus based on the average life expectancy in Oregon.")
     });
 });
