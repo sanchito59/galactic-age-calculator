@@ -5,7 +5,7 @@
 ### Description
 
 This application...
-
+- - - -
 ### Setup/Installation Requirements
 
 ![enter image description here](https://i.imgur.com/UStodOA.jpg "read")
@@ -34,6 +34,13 @@ from _C:\Users\exampleUser\Desktop\exampleDirectoryName>_
 Step 1 will install all of the dependencies used to develop **Project Title**.  
 Step 2 will build the project, performing any necessary building/prep tasks.
 
+**_If you are using Mac OS, you must change:_** 
+
+_"'start': 'npm run build & webpack-dev-server --open --mode development',"_  
+**_to_**  
+_"'start': 'npm run build; webpack-dev-server --open --mode development',"_
+
+- - - -
 ### Specifications:
 
 |Symbol| Value  |
@@ -53,12 +60,15 @@ Step 2 will build the project, performing any necessary building/prep tasks.
 |input2|output2|
 |input3|output3|
 
+- - - -
+
 ### Technologies Used
 
  - HTML5
  - CSS3/Bootstrap/SCSS
  - JavaScript/jQuery
 
+- - - -
 ### Support and Contact
 
 If you run into any issues running **Project Title**, please contact **developer**.
