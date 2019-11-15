@@ -41,6 +41,8 @@ export class Age {
         }
     };
     venusLifeExpectancy(){
-
+        const averageLife = 79.6;
+        const lifeLeft = (averageLife - (this.age / 0.62)).toFixed(2);
+        return lifeLeft;
     };
 };
