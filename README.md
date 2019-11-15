@@ -43,20 +43,22 @@ _"'start': 'npm run build; webpack-dev-server --open --mode development',"_
 - - - -
 ### Specifications:
 
-|Symbol| Value  |
+Planet|Revolution Period|
 |---|---|
-|a|0|
-|b|1|
-|c|2|
-|d|3|
-|c|4|
-|d|5|
-|e|6|
-
+Mercury|88 days|
+Venus|225 days|
+Earth|365 days|
+Mars|1.88 years|
+Jupiter|11.86 years|
+Saturn|29.5 years|
+Uranus|84 years|
+Neptune|165 years|
+Pluto|248 years|  
+   
 |Input|Output|
 |---|---|
-|input|return false|
-|input1|output1|
+|'apple'|return false|
+|25 years old|Mercurial Age: |
 |input2|output2|
 |input3|output3|
 
