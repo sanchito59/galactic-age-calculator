@@ -129,8 +129,12 @@ describe('jupiterLifeExpectancy', () => {
         let lifeLeft = new Age(2000);
         expect(lifeLeft.jupiterLifeExpectancy()).toEqual("We've been mourning you for 88.75 years!");
     });
-    test('should tell the user how long they have left to live based on averageLife', () => {
+    // test('should tell the user how long they have left to live based on averageLife', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.jupiterLifeExpectancy()).toEqual("77.50")
+    // });
+    test('should tell the user how long they have left to live in a statement', () => {
         let lifeLeft = new Age(25);
-        expect(lifeLeft. jupiterLifeExpectancy()).toEqual("66.30")
+        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("You have 66.30 years left to live on Mars based on the average life expectancy in Oregon.");
     });
 });
