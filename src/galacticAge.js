@@ -54,8 +54,11 @@ export class Age {
         const lifeLeft = (averageLife - (this.age / 1.88)).toFixed(2);
         if (lifeLeft <= 0) {
             return "We've been mourning you for " + Math.abs(lifeLeft) + " years!";
-        } else if (lifeLeft > 0){
+        } else if (lifeLeft > 0) {
             return "You have " + lifeLeft + " years left to live on Mars based on the average life expectancy in Oregon.";
         }
+    }
+    jupiterLifeExpectancy() {
+        return true;
     }
 };
