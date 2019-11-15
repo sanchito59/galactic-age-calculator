@@ -121,8 +121,12 @@ describe('jupiterLifeExpectancy', () => {
     //     let lifeLeft = new Age(25);
     //     expect(lifeLeft.jupiterLifeExpectancy()).toEqual("77.50");
     // });
-    test('should determine whether or not the user has outlived the averageLife', () => {
+    // test('should determine whether or not the user has outlived the averageLife', () => {
+    //     let lifeLeft = new Age(2000);
+    //     expect(lifeLeft.jupiterLifeExpectancy()).toEqual(true);
+    // });
+    test('should tell the user how long they\'ve been dead for if they have outlived averageLife', () => {
         let lifeLeft = new Age(2000);
-        expect(lifeLeft.jupiterLifeExpectancy()).toEqual(true);
+        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("We've been mourning you for 77.50 years!");
     });
 });
