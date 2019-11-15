@@ -14,4 +14,8 @@ export class Age {
         const mercuryAge = this.age / 0.24;
         return mercuryAge.toFixed(2);
     };
+    venusYears() {
+        const venusAge = this.age / 0.62;
+        return venusAge.toFixed(2);
+    };
 };

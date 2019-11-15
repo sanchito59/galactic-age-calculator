@@ -14,8 +14,14 @@ describe('validAge', () => {
 });
 
 describe('mercuryYears', () => {
-    test('should convert user\'s Earth age in years to Mercurcy years', () => {
+    test('should convert user\'s Earth age in years to Mercury years', () => {
         let userAge = new Age(25);
         expect(userAge.mercuryYears()).toEqual("104.17");
+    })
+});
+describe('venusYears', () => {
+    test('should convert user\'s Earth age in years to Venus years', () => {
+        let userAge = new Age(56);
+        expect(userAge.venusYears()).toEqual("40.32");
     })
 });
