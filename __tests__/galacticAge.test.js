@@ -57,8 +57,12 @@ describe('mercuryLifeExpectancy', () => {
     //     let lifeLeft = new Age(25);
     //     expect(lifeLeft.mercuryLifeExpectancy()).toEqual("-24.57");
     // });
-    test('should determine whether or not the user has outlived the averageLife expectancy', () => {
+    // test('should determine whether or not the user has outlived the averageLife expectancy', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.mercuryLifeExpectancy()).toEqual(true)
+    // });
+    test('should tell the user how long they\'ve been dead for if they have outlived the averageLife expectancy', () => {
         let lifeLeft = new Age(25);
-        expect(lifeLeft.mercuryLifeExpectancy()).toEqual(true)
-    });
+        expect(lifeLeft.mercuryLifeExpectancy()).toEqual("We've been mourning you for 24.57 years!")
+    })
 });
