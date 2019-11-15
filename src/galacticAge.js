@@ -3,7 +3,7 @@ export class Age {
         this.age = age;
     }
     validAge() {
-        let number = 5;
+        const number = 5;
         if (typeof (this.age) !== typeof (number)) {
             return false;
         } else if (this.age < 1) {
