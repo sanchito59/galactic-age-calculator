@@ -10,4 +10,8 @@ export class Age {
             return false;
         }
     }
-}
+    mercuryYears() {
+        const mercuryAge = this.age / 0.24;
+        return mercuryAge.toFixed(2);
+    };
+};

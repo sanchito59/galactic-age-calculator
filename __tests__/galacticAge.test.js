@@ -12,3 +12,10 @@ describe('validAge', () => {
         expect(validAgeTest.validAge()).toEqual(false);
     });
 });
+
+describe('mercuryYears', () => {
+    test('should convert user\'s Earth age in years to Mercurcy years', () => {
+        let userAge = new Age(25);
+        expect(userAge.mercuryYears()).toEqual(104.17)
+    })
+});
