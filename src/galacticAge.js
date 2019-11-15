@@ -22,13 +22,16 @@ export class Age {
         const martianAge = this.age / 1.88;
         return martianAge.toFixed(2);
     };
-    jupiterYears(){
+    jupiterYears() {
         const jupiterAge = this.age / 11.88;
         return jupiterAge.toFixed(2);
     };
-    lifeExpectancy(){
+    lifeExpectancy() {
         const averageLife = 79.6;
         const lifeLeft = (averageLife - this.age).toFixed(2);
         return lifeLeft;
+    };
+    mercuryLifeExpectancy() {
+
     };
 };

@@ -46,4 +46,11 @@ describe('lifeExpectancy', () => {
         //79.6 - 25
         expect(lifeLeft.lifeExpectancy()).toEqual("54.60")
     })
-})
+});
+
+describe('mercuryLifeExpectancy', () => {
+    test('should show how many years a user has left to live on Mercury', () => {
+        let lifeLeft = new Age(25);
+        expect(lifeLeft.mercuryLifeExpectancy()).toEqual("You've been dead for -24.57 years!");
+    });
+});
