@@ -49,7 +49,9 @@ export class Age {
             return "You have " + lifeLeft + " years left to live on Venus based on the average life expectancy in Oregon.";
         }
     };
-    martianLifeExpectancy(){
-        
+    martianLifeExpectancy() {
+        const averageLife = 79.6;
+        const lifeLeft = (averageLife - (this.age / 1.88)).toFixed(2);
+        return lifeLeft;
     }
 };
