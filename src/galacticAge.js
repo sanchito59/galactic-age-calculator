@@ -36,6 +36,8 @@ export class Age {
         const lifeLeft = (averageLife - (this.age / 0.24)).toFixed(2);
         if (lifeLeft <= 0) {
             return "We've been mourning you for " + Math.abs(lifeLeft) + " years!";
+        } else if(lifeLeft > 0){
+            return lifeLeft;
         }
         // return lifeLeft;
     };
