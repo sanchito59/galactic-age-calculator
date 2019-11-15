@@ -99,4 +99,8 @@ describe('martianLifeExpectancy', () => {
         let lifeLeft = new Age(25);
         expect(lifeLeft.martianLifeExpectancy()).toEqual("66.30");
     });
+      test('should determine whether or not the user has outlived the averageLife', () => {
+        let lifeLeft = new Age(50);
+        expect(lifeLeft.martianLifeExpectancy()).toEqual(true);
+    });
 });

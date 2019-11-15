@@ -52,6 +52,8 @@ export class Age {
     martianLifeExpectancy() {
         const averageLife = 79.6;
         const lifeLeft = (averageLife - (this.age / 1.88)).toFixed(2);
-        return lifeLeft;
+        if (lifeLeft <= 0) {
+            return true;
+        }
     }
 };
