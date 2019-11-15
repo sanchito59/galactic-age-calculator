@@ -55,7 +55,7 @@ export class Age {
         if (lifeLeft <= 0) {
             return "We've been mourning you for " + Math.abs(lifeLeft) + " years!";
         } else if (lifeLeft > 0){
-            return lifeLeft;
+            return "You have " + lifeLeft + " years left to live on Mars based on the average life expectancy in Oregon.";
         }
     }
 };

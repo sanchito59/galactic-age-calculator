@@ -113,6 +113,6 @@ describe('martianLifeExpectancy', () => {
     // });
     test('should tell the user how long they have left to live in a statement', () => {
         let lifeLeft = new Age(25);
-        expect(lifeLeft.martianLifeExpectancy()).toEqual("You have 39.28 years left to live on Mars based on the average life expectancy in Oregon.");
+        expect(lifeLeft.martianLifeExpectancy()).toEqual("You have 66.30 years left to live on Mars based on the average life expectancy in Oregon.");
     });
 });
