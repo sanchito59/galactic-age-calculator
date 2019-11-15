@@ -127,6 +127,6 @@ describe('jupiterLifeExpectancy', () => {
     // });
     test('should tell the user how long they\'ve been dead for if they have outlived averageLife', () => {
         let lifeLeft = new Age(2000);
-        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("We've been mourning you for 77.50 years!");
+        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("We've been mourning you for 88.75 years!");
     });
 });
