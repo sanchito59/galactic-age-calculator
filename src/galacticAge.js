@@ -11,20 +11,20 @@ export class Age {
         }
     }
     mercuryYears() {
-        const mercuryAge = this.age / 0.24;
-        return mercuryAge.toFixed(2);
+        const mercuryAge = (this.age / 0.24).toFixed(2);
+        return mercuryAge;
     };
     venusYears() {
-        const venusAge = this.age / 0.62;
-        return venusAge.toFixed(2);
+        const venusAge = (this.age / 0.62).toFixed(2);
+        return venusAge;
     };
     martianYears() {
-        const martianAge = this.age / 1.88;
-        return martianAge.toFixed(2);
+        const martianAge = (this.age / 1.88).toFixed(2);
+        return martianAge;
     };
     jupiterYears() {
-        const jupiterAge = this.age / 11.88;
-        return jupiterAge.toFixed(2);
+        const jupiterAge = (this.age / 11.88).toFixed(2);
+        return jupiterAge;
     };
     lifeExpectancy() {
         const averageLife = 79.6;
