@@ -122,7 +122,7 @@ describe('jupiterLifeExpectancy', () => {
     //     expect(lifeLeft.jupiterLifeExpectancy()).toEqual("77.50");
     // });
     test('should determine whether or not the user has outlived the averageLife', () => {
-        let lifeLeft = new Age(200);
+        let lifeLeft = new Age(2000);
         expect(lifeLeft.jupiterLifeExpectancy()).toEqual(true);
     });
 });
