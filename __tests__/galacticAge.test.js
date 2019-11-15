@@ -74,3 +74,10 @@ describe('mercuryLifeExpectancy', () => {
         expect(lifeLeft.mercuryLifeExpectancy()).toEqual("You have 58.77 years left to live on Mercury based on the average life expectancy in Oregon.")
     })
 });
+
+describe('venusLifeExpectancy', () => {
+    test('should show the user how many years they have left to live on Venus', () => {
+        let lifeLeft = new Age(25);
+        expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28");
+    })
+})

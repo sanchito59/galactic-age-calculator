@@ -39,6 +39,8 @@ export class Age {
         } else if (lifeLeft > 0) {
             return "You have " + lifeLeft + " years left to live on Mercury based on the average life expectancy in Oregon.";
         }
-        // return lifeLeft;
+    };
+    venusLifeExpectancy(){
+
     };
 };
