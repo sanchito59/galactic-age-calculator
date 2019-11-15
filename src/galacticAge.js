@@ -9,9 +9,11 @@ export class Age {
 
 export function ageCalculator(numInput){
     let number = 5;
+    const earthDays = 365;
     if(typeof(numInput) !== typeof(number)){
         return false;
     } else if (numInput < 1){
         return false;
     }
+    return numInput * earthDays;
 }
