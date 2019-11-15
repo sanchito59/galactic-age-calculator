@@ -1,4 +1,4 @@
-import { Age } from './../src/galacticAge.js'
+import { Age } from './../src/galacticAge.js';
 import TestRunner from 'jest-runner';
 
 describe('validAge', () => {
