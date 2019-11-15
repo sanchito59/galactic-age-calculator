@@ -95,12 +95,12 @@ describe('venusLifeExpectancy', () => {
 });
 
 describe('martianLifeExpectancy', () => {
-    test('should show the user how many years they have left to live on Mars', () => {
-        let lifeLeft = new Age(25);
-        expect(lifeLeft.martianLifeExpectancy()).toEqual("66.30");
-    });
+    // test('should show the user how many years they have left to live on Mars', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.martianLifeExpectancy()).toEqual("66.30");
+    // });
       test('should determine whether or not the user has outlived the averageLife', () => {
-        let lifeLeft = new Age(50);
+        let lifeLeft = new Age(200);
         expect(lifeLeft.martianLifeExpectancy()).toEqual(true);
     });
 });
