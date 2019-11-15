@@ -36,6 +36,6 @@ describe('martianYears', () => {
 describe('jupiterYears', () => {
     test('should convert user\'s Earth age in years to Jupiter years', () => {
         let userAge = new Age(25);
-        expect(userAge.jupiterYears()).toEqual("2.11");
+        expect(userAge.jupiterYears()).toEqual("2.10");
     });
 });
