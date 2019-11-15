@@ -26,9 +26,16 @@ describe('venusYears', () => {
     });
 });
 
-describe('martianTest', () => {
+describe('martianYears', () => {
     test('should convert user\'s Earth age in years to Martian years', () => {
         let userAge = new Age(25);
         expect(userAge.martianYears()).toEqual("13.30");
+    });
+});
+
+describe('jupiterYears', () => {
+    test('should convert user\'s Earth age in years to Jupiter years', () => {
+        let userAge = new Age(25);
+        expect(userAge.jupiterYears()).toEqual("2.11");
     });
 });

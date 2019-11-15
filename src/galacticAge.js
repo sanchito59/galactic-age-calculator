@@ -22,4 +22,7 @@ export class Age {
         const martianAge = this.age / 1.88;
         return martianAge.toFixed(2);
     };
+    jupiterYears(){
+        
+    }
 };
