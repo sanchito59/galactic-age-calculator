@@ -116,3 +116,9 @@ describe('martianLifeExpectancy', () => {
         expect(lifeLeft.martianLifeExpectancy()).toEqual("You have 66.30 years left to live on Mars based on the average life expectancy in Oregon.");
     });
 });
+describe('martianLifeExpectancy', () => {
+    test('should show the user how many years they have left to live on Jupiter', () => {
+        let lifeLeft = new Age(25);
+        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("2.10");
+    });
+});
