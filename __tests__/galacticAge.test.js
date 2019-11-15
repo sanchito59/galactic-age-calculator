@@ -129,4 +129,8 @@ describe('jupiterLifeExpectancy', () => {
         let lifeLeft = new Age(2000);
         expect(lifeLeft.jupiterLifeExpectancy()).toEqual("We've been mourning you for 88.75 years!");
     });
+    test('should tell the user how long they have left to live based on averageLife', () => {
+        let lifeLeft = new Age(25);
+        expect(lifeLeft. jupiterLifeExpectancy()).toEqual("66.30")
+    });
 });
