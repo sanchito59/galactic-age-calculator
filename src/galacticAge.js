@@ -27,7 +27,7 @@ export class Age {
         return jupiterAge.toFixed(2);
     };
     lifeExpectancy(){
-        const lifeLeft = 79.6 - this.age;
+        const lifeLeft = (79.6 - this.age).toFixed(2);
         return lifeLeft;
     };
 };

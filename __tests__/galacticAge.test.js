@@ -41,9 +41,9 @@ describe('jupiterYears', () => {
 });
 
 describe('lifeExpectancy', () => {
-    test('should show how many years a user has left to live', () => {
+    test('should show how many years a user has left to live :(', () => {
         let lifeLeft = new Age(25);
         //79.6 - 25
-        expect(lifeLeft.lifeExpectancy()).toEqual(54.6)
+        expect(lifeLeft.lifeExpectancy()).toEqual("54.60")
     })
 })
