@@ -1,4 +1,4 @@
-# Project Title
+~# Project Title
 
 ## By **Developer**
 
@@ -45,23 +45,23 @@ _"'start': 'npm run build; webpack-dev-server --open --mode development',"_
 
 |Planet|Revolution Period|
 |---|---|
-|Mercury|88 days|
-|Venus|225 days|
-|Earth|365 days|
-|Mars|1.88 years|
-|Jupiter|11.86 years|
-|Saturn|29.5 years|
-|Uranus|84 years|
-|Neptune|165 years|
-|Pluto|248 years|  
+|Mercury|~88 days|
+|Venus|~225 days|
+|Earth|~365 days|
+|Mars|~1.88 years|
+|Jupiter|~11.86 years|
+|Saturn|~29.5 years|
+|Uranus|~84 years|
+|Neptune|~165 years|
+|Pluto|~248 years|  
    
 |Input|Output|
 |---|---|
 |'apple'|return false|
-|25 years old|Mercurial Age: 105 years|
-|25 years old|Venetian Age: 41 years|
-|25 years old|Martian Age: 13.4 years|
-|25 years old|Jovian Age: 2.13 years|
+|25 years old|Mercurial Age: ~103 years|
+|25 years old|Venetian Age: ~41 years|
+|25 years old|Martian Age: ~13.4 years|
+|25 years old|Jovian Age: ~2.13 years|
 
 |Life Expectancy Location|Life Expectancy|
 |---|---|
