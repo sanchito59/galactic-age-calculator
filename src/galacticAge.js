@@ -4,7 +4,6 @@ export class Age {
     }
     validAge() {
         let number = 5;
-        let age;
         if (typeof (this.age) !== typeof (number)) {
             return false;
         } else if (this.age < 1) {
