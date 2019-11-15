@@ -1,3 +1,4 @@
+import { Age } from './../src/galacticAge.js'
 import { ageCalculator } from './../src/galacticAge.js';
 import TestRunner from 'jest-runner';
 
@@ -9,5 +10,9 @@ describe('ageCalculator', () => {
     test('should determine whether an integer is a positive number greater than 0', () => {
         let ageCalculatorTest = ageCalculator(-2);
         expect(ageCalculatorTest).toEqual(false);
+    });
+    test('should output days in an Earth year based on inputted age', () => {
+        let ageCalculatorTest = ageCalculator(25);
+        expect(ageCalculatorTest).toEqual(9125);
     })
 });
