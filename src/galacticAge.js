@@ -59,6 +59,8 @@ export class Age {
         }
     }
     jupiterLifeExpectancy() {
-        return true;
+        const averageLife = 79.6;
+        const lifeLeft = (averageLife - (this.age / 11.88)).toFixed(2);
+        return lifeLeft;
     }
 };
