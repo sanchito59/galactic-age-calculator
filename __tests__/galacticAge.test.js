@@ -1,18 +1,14 @@
 import { Age } from './../src/galacticAge.js'
-import { ageCalculator } from './../src/galacticAge.js';
+import { validAge } from './../src/galacticAge.js';
 import TestRunner from 'jest-runner';
 
-describe('ageCalculator', () => {
+describe('validAge', () => {
     test('should determine if an input is a number', () => {
-        let ageCalculatorTest = ageCalculator('apple');
-        expect(ageCalculatorTest).toBe(false);
+        let validAgeTest = new Age('apple');
+        expect(validAgeTest.validAge()).toBe(false);
     });
     test('should determine whether an integer is a positive number greater than 0', () => {
-        let ageCalculatorTest = ageCalculator(-2);
-        expect(ageCalculatorTest).toEqual(false);
+        let validAgeTest = new Age(-2);
+        expect(validAgeTest.validAge()).toEqual(false);
     });
-    test('should output days in an Earth year based on inputted age', () => {
-        let ageCalculatorTest = ageCalculator(25);
-        expect(ageCalculatorTest).toEqual(9125);
-    })
 });
