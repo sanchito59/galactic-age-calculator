@@ -53,10 +53,6 @@ describe('mercuryLifeExpectancy', () => {
     //     let lifeLeft = new Age(25);
     //     expect(lifeLeft.mercuryLifeExpectancy()).toEqual("-24.57");
     // });
-    // test('should return how long the user has left to live', () => {
-    //     let lifeLeft = new Age(25);
-    //     expect(lifeLeft.mercuryLifeExpectancy()).toEqual("-24.57");
-    // });
     // test('should determine whether or not the user has outlived the averageLife expectancy', () => {
     //     let lifeLeft = new Age(25);
     //     expect(lifeLeft.mercuryLifeExpectancy()).toEqual(true)
@@ -76,8 +72,12 @@ describe('mercuryLifeExpectancy', () => {
 });
 
 describe('venusLifeExpectancy', () => {
-    test('should show the user how many years they have left to live on Venus', () => {
-        let lifeLeft = new Age(25);
-        expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28");
+    // test('should show the user how many years they have left to live on Venus', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28");
+    // });
+    test('should determine whether or not the user has outlived the averageLife', () => {
+        let lifeLeft = new Age(35);
+        expect(lifeLeft.venusLifeExpectancy()).toEqual(true);
     });
 });
