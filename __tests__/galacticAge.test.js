@@ -117,8 +117,12 @@ describe('martianLifeExpectancy', () => {
     });
 });
 describe('jupiterLifeExpectancy', () => {
-    test('should show the user how many years they have left to live on Jupiter', () => {
-        let lifeLeft = new Age(25);
-        expect(lifeLeft.jupiterLifeExpectancy()).toEqual("77.50");
+    // test('should show the user how many years they have left to live on Jupiter', () => {
+    //     let lifeLeft = new Age(25);
+    //     expect(lifeLeft.jupiterLifeExpectancy()).toEqual("77.50");
+    // });
+    test('should determine whether or not the user has outlived the averageLife', () => {
+        let lifeLeft = new Age(200);
+        expect(lifeLeft.jupiterLifeExpectancy()).toEqual(true);
     });
 });
