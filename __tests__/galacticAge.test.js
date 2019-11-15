@@ -84,4 +84,8 @@ describe('venusLifeExpectancy', () => {
         let lifeLeft = new Age(50);
         expect(lifeLeft.venusLifeExpectancy()).toEqual("We've been mourning you for 1.05 years!");
     });
+    test('should tell the user how long they have left to live based on averageLife', () => {
+        let lifeLeft = new Age(50);
+        expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28")
+    });
 });
