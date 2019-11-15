@@ -37,6 +37,6 @@ export class Age {
         if (lifeLeft <= 0) {
             return true;
         }
-        return lifeLeft;
+        // return lifeLeft;
     };
 };
