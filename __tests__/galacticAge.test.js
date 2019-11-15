@@ -77,7 +77,7 @@ describe('venusLifeExpectancy', () => {
     //     expect(lifeLeft.venusLifeExpectancy()).toEqual("39.28");
     // });
     test('should determine whether or not the user has outlived the averageLife', () => {
-        let lifeLeft = new Age(35);
+        let lifeLeft = new Age(50);
         expect(lifeLeft.venusLifeExpectancy()).toEqual(true);
     });
 });
