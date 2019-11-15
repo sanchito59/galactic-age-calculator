@@ -18,4 +18,7 @@ export class Age {
         const venusAge = this.age / 0.62;
         return venusAge.toFixed(2);
     };
+    martianYears() {
+
+    };
 };

@@ -17,11 +17,17 @@ describe('mercuryYears', () => {
     test('should convert user\'s Earth age in years to Mercury years', () => {
         let userAge = new Age(25);
         expect(userAge.mercuryYears()).toEqual("104.17");
-    })
+    });
 });
 describe('venusYears', () => {
     test('should convert user\'s Earth age in years to Venus years', () => {
         let userAge = new Age(25);
         expect(userAge.venusYears()).toEqual("40.32");
+    });
+    describe('martianTest', () => {
+        test('should convert user\'s Earth age in years to Martian years', () => {
+            let userAge = new Age(25);
+            expect(userAge.martianYears()).toEqual("13.30");
+        });
     })
 });
