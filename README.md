@@ -21,9 +21,18 @@ This application...
 
 #### Clone: 
 
- 1. To clone the repository, from your terminal or command line enter, "git remote add exampleCredentials cloneLinkURL"
- 2. Clone Link: https://github.com/userName/exampleRepositoryURL.git
- 3. Once the repository finishes downloading, open index.html.
+ 1. To clone the repository, from your terminal or command line enter: "git clone  https://github.com/userName/exampleRepositoryURL.git"
+ 2. Once the repository finishes downloading you will need to install the packaged modules.
+
+#### Install:
+In order to use **Project Title** you will need to install the dependenices required to run it. Once you have cloned or zipped the file from Github, in your terminal or command line do the following: 
+
+from _C:\Users\exampleUser\Desktop\exampleDirectoryName>_  
+1. npm install
+2. npm run build
+
+Step 1 will install all of the dependencies used to develop **Project Title**.  
+Step 2 will build the project, performing any necessary building/prep tasks.
 
 ### Specifications:
 
@@ -47,7 +56,7 @@ This application...
 ### Technologies Used
 
  - HTML5
- - CSS3/Boostrap/SCSS
+ - CSS3/Bootstrap/SCSS
  - JavaScript/jQuery
 
 ### Support and Contact
