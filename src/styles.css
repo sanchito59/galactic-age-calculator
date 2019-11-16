@@ -1,3 +1,5 @@
 body {
-  background-image: url(./../src/milkyWay.jpg);
+  margin: 25px;
+  background-image: url(./milkyWay.jpg);
+  color: white;
 }
